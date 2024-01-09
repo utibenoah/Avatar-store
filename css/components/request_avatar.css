@@ -1,0 +1,46 @@
+@import url('../base.css');
+
+.form__content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+}
+.form__content>form{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+form>input{
+    line-height: 5rem;
+    border-radius: 0.8rem;
+
+   border: .2rem solid var(--primary);
+}
+form>input:active{
+    outline:.2rem solid red;
+}
+button{
+    font-size: 2rem;
+    padding: 1em;
+    border-radius: 0.8rem;
+    background-color: skyblue;
+}
+button:hover{
+    background-color: rgb(38, 236, 38);
+}
+form>:is(label, button){
+    margin-top: 2rem;
+}
+.form__container>p{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: .5em;
+}
+
+@media screen and (min-width:500px) {
+    .form__content>form{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
