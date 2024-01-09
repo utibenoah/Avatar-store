@@ -1,0 +1,38 @@
+@import url('../base.css');
+
+header>.container{
+    display: grid;
+    gap: 2rem;
+    align-items: start;
+    grid-template-columns: 1fr;
+
+    justify-content: center;
+    
+}
+
+.header__text>p{
+    text-align: justify;
+    height: 100%;
+}
+.header__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__img>img{
+    border-radius: 50%;
+    width: 40%;
+    aspect-ratio: 16/16;
+}
+
+@media screen and (min-width:50rem) {
+    header>.container{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media screen and (min-width:70rem) {
+    header>.container{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
