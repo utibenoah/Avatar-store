@@ -1,0 +1,41 @@
+.wrapper{
+    display: grid;
+    gap: 2rem;
+    padding: 0 10px;
+    border: 1px solid green;
+ }
+ 
+ .container{
+     max-width:1160px;
+     margin-top: 0;
+     margin-bottom: 0;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ /* container */
+
+ /* xs */
+ /* @media (min-width:475px) {
+    
+ } */
+/* sm */
+/* @media (min-width:640px) {
+    
+} */
+/* md */
+/* @media (min-width:768px) {
+    
+} */
+/* lg */
+/* @media (min-width:1024px) {
+    
+} */
+/* xlg */
+/* @media (min-width:1280px) {
+    
+} */
+/* 2lg */
+/* @media (min-width:1536px) {
+    
+} */
