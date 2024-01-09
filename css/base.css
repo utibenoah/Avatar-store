@@ -1,0 +1,46 @@
+
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: calc(1em + 0.5rem);
+}
+
+/* colours */
+:root{
+    --primary:steelblue;
+    --secondary: #e07866;
+}
+/* defualt font-size */
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    scroll-behavior: smooth;
+}
+/* multimedia */
+img,picture,video,svg{
+    max-width: 100%;
+}
+
+
+body,html{
+    height: 100%;
+}
+
+/* extra setup */
+body{
+    background-color: #aabb;
+    font-family: 'General san', sans-serif;
+}
+
+button{
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    background-color: none;
+    cursor: pointer;
+}
