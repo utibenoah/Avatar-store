@@ -1,7 +1,7 @@
 @import url('../base.css');
 
 .avatar{
-    background-color: var(--primary);
+    background-color: var(--clr-primary);
 }
 .cards{
     display: grid;
@@ -39,7 +39,10 @@
     margin-bottom: 2.5rem;
 }
 
-
+.more>a>button{
+    color:var(--clr-lead);
+    box-shadow: 2px 4px 8px #bbcc;
+}
 @media screen and (min-width:50rem) {
     .avatar__card{
         flex-direction: row;

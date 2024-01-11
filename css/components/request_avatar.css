@@ -15,7 +15,7 @@ form>input{
     line-height: 5rem;
     border-radius: 0.8rem;
 
-   border: .2rem solid var(--primary);
+   border: .2rem solid var(--clr-primary);
 }
 form>input:active{
     outline:.2rem solid red;
@@ -38,6 +38,14 @@ form>:is(label, button){
     padding: .5em;
 }
 
+.btn{
+    
+        font-size: 2rem;
+        padding: 1em;
+        border-radius: 0.8rem;
+        background-color: skyblue;
+
+}
 @media screen and (min-width:500px) {
     .form__content>form{
         width: 80%;

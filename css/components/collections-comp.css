@@ -1,0 +1,16 @@
+@import url('../base.css.');
+
+.collections__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+.collections__items>*{
+    width: 100%;
+    max-width: 200px;
+}
+main.wrapper>a{
+    color: var(--clr-lead);
+}

@@ -1,0 +1,41 @@
+@import url('../base.css');
+footer{
+    background-color: var(--clr-primary);
+}
+.contacts{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(1,1fr);
+}
+.contacts__phone{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: var(--clr-lead);
+}
+.contacts__socialmedia{
+    display: flex;
+    padding: 1rem;
+    color: var(--clr-lead);
+    justify-content: flex-start;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.more{
+    display: flex;
+    justify-content: flex-end;
+}
+.more>a>button{
+    padding: .5em;
+    font-size: 2rem;
+    margin: .3em;
+}
+@media (min-width:500px) {
+    .contacts{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

@@ -1,6 +1,6 @@
 @import url('../base.css');
 nav{
-    background-color: var(--primary);
+    background-color: var(--clr-primary);
     position: relative;
     height: 6rem;
     
@@ -23,7 +23,7 @@ nav>.container{
     font-size: 2.5rem;
     padding: .5em;
     text-decoration: none;
-    color: whitesmoke;
+    color: var(--clr-lead);
     border-radius: .3em;
     
 }
@@ -70,7 +70,6 @@ span{
         top: 6rem;
         width: 30rem;
         padding: 2rem;
-        border: 2px green solid;
         right: 0;
         z-index: 10;
 
@@ -83,7 +82,6 @@ span{
         
     }
     .nav__links>li{
-        border: 1px solid red;
         width: 100%;
         
     }

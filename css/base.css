@@ -9,8 +9,9 @@
 
 /* colours */
 :root{
-    --primary:steelblue;
+    --clr-primary:steelblue;
     --secondary: #e07866;
+    --clr-lead:whitesmoke;
 }
 /* defualt font-size */
 html{
